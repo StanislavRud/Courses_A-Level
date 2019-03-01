@@ -1,0 +1,75 @@
+div {
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+main > div:first-child {
+    background: green;
+}
+
+main > div:first-child:hover {
+    background: black;
+}
+
+
+main div div:first-child {
+    background: yellow;
+}
+
+
+main div div:first-child:hover {
+    background: blue;
+}
+
+div div div:nth-child(1) {
+    background: red;
+}
+
+div div div:nth-child(1):hover {
+    background: white;
+}
+
+div div div div:nth-child(1) {
+    background: brown;
+}
+
+main div div div div:last-child {
+    background: purple;
+}
+
+main div div div div:last-child:hover {
+    background: orange;
+}
+
+main div div div div div:nth-last-of-type(1) {
+    background: grey;
+    color: grey;
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+main div div div div div:nth-last-of-type(1):hover {
+    background: lightblue;
+    color: red;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:before {
+    content:"-";
+}
+
+li {
+    border: 1px solid black;
+}

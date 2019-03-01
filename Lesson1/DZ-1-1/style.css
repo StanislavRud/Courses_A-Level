@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+.square {
+    background-color: red;
+    transition: all 0.7s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: none;
+}
+
+.dz1-1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 200px auto;
+    left: 600px;
+    top: 100px;
+}
+
+.dz1-1:hover .square{
+    transform: scale(7, 7) rotate(360deg);
+    border-radius: 50%;
+    background: green;
+}
+
+.dz1-1:hover .square + nav {
+    display: block;
+}
+
+nav {
+    margin: 0 auto;
+    width: 500px;
+    top: 280px;
+    left: 500px;
+}
+
+nav ul {
+    padding:auto 0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    height: 50px;
+    width: 100px;
+}
+
+ul.osn_menu {
+    padding: 0;
+    text-align: center;
+}
+
+ul.osn_menu a {
+    margin: auto;
+    display:block;
+    font-size:20px;
+    line-height: 50px;
+    text-decoration:none;
+    border: 1px solid black;
+}
+
+ul.sub1_menu {
+    padding: 0;
+}
+.osn_menu li {
+    width: 200px;
+}
+
+ul.sub3_menu {
+    padding: 0 0 0 200px;
+    bottom: 52px;
+}
+
+.sub1_menu li {
+    height: 50px;
+}
+
+ul.sub1_menu {
+    display: none;
+}
+
+.osn_menu li:hover .sub1_menu {
+    display: block;
+}
+
+
+ul.sub3_menu {
+    display: none;
+}
+
+li.sub2_menu:hover .sub3_menu {
+    display: block;
+}

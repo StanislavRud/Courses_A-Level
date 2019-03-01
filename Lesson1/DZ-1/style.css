@@ -1,0 +1,52 @@
+body {
+    margin-left: 50px;
+}
+h2 {
+    margin: 30px 0 25px;
+}
+p {
+    margin: auto;
+}
+
+form p{
+    margin: 10px;
+}
+
+.block3 p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.block3 .skrito {
+    text-decoration: none;
+}
+
+.block3 a:hover {
+
+}
+
+.block3 mark {
+    background: yellow;
+}
+
+.page_text {
+    background: rgb(222,222,202);
+    max-width: 450px;
+    padding: 0 10px;
+}
+
+.page_text h1 {
+    color: #673300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page_text h2 {
+    margin: 0 auto;
+}
+
+.page_text h3 {
+    color: #9a6633;
+}
+
+.page_text a {
+    color: #336600;
+}

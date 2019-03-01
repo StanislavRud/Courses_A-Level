@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.home_page {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    padding: 2px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.logo_site img {
+    height: 90px;
+}
+
+header li {
+    list-style: none;
+    margin: 5px;
+    display: inline-block;
+    color: black;
+}
+
+header ul a {
+    text-decoration: none;
+    padding: 5px;
+    color: inherit;
+}
+
+header ul a:hover {
+    background: black;
+    color: white;
+}
+
+main {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    color: #d71d66;
+    font-size: 30px;
+}
+
+.products_row div:nth-child(odd) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+.products_row div:nth-child(even) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 10px auto;
+}
+
+.products_row img {
+    width: 150px;
+}
+
+.products_row p {
+    margin: 10px;
+}
+
+.products_col {
+    margin: 40px 0;
+
+}
+
+.products_block {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products_block div {
+    width: 30%;
+    margin: 15px;
+    display: flex;
+    color: black;
+
+}
+
+.products_block a {
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    transition: transform 0.2s linear, border-radius 0.2s linear;
+    color: inherit;
+    border: 1px solid black;
+}
+
+.products_block div a:hover {
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.products_block img {
+    width: 160px;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footter_site img {
+    height: 50px;
+}
+
+address {
+    color: black;
+}
+
+address a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+

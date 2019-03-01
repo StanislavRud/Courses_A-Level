@@ -1,0 +1,98 @@
+main div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main > div:first-child {
+    background: green;
+}
+
+main > div:first-child:hover {
+    background: black;
+}
+
+div div div:nth-child(1) {
+    background: red;
+}
+
+div div div:nth-child(1):hover {
+    background: white;
+}
+
+div div div div:nth-child(1) {
+    background: brown;
+}
+
+div div div div:nth-child(1):hover {
+    background: blue;
+}
+
+div div div div:nth-child:hover(1) {
+    background: cadetblue;
+}
+
+main div div div div:last-child {
+    background: purple;
+}
+
+main div div div div:last-child:hover {
+    background: orange;
+}
+
+main div div div div div:nth-last-of-type(1) {
+    background: grey;
+    color: grey;
+    font-size: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+main div div div div div:nth-last-of-type(1):hover {
+    background: lightblue;
+    color: red;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    width: 200px;
+    transition: all 1s ease;
+}
+
+li:nth-child(3n+1){
+    background: yellow;
+}
+
+li:nth-child(even){
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:nth-child(1) a{
+    color:lawngreen ;
+}
+
+a:before {
+    content:"-";
+}
+
+li:hover {
+    background: deepskyblue;
+    height: 25px;
+    padding: 5px;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+ul li:hover a{
+    color: white;
+}
+
+
